@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="61" visitedSequencePoints="61" numBranchPoints="27" visitedBranchPoints="27" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="3" numClasses="3" visitedMethods="13" numMethods="13" />
+  <Modules>
+    <Module hash="7F-45-E7-89-46-CF-3F-8E-26-FA-F4-73-9D-07-FC-81-C8-1B-E3-FE">
+      <Summary numSequencePoints="54" visitedSequencePoints="54" numBranchPoints="24" visitedBranchPoints="24" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="12" numMethods="12" />
+      <ModulePath>C:\Users\Guett\source\repos\Biblioteca.Domain.Tests\Biblioteca.Application.Tests\bin\Debug\Biblioteca.Apresentacao.test.dll</ModulePath>
+      <ModuleTime>2018-05-25T00:30:57.2869295Z</ModuleTime>
+      <ModuleName>Biblioteca.Apresentacao.test</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Guett\source\repos\Biblioteca.Domain.Tests\Biblioteca.Apresentacao.test\Livros\LivroService.cs" />
+        <File uid="2" fullPath="C:\Users\Guett\source\repos\Biblioteca.Domain.Tests\Biblioteca.Apresentacao.test\Emprestimos\EmprestimoService.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="12" visitedBranchPoints="12" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Biblioteca.Aplicacao.Livros.LivroService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void Biblioteca.Aplicacao.Livros.LivroService::.ctor(Biblioteca.Dominio.Livros.ILivroRepositorio)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="2" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="3" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="4" ordinal="3" offset="15" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="59" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>Biblioteca.Dominio.Livros.Livro Biblioteca.Aplicacao.Livros.LivroService::Add(Biblioteca.Dominio.Livros.Livro)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="5" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="6" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="45" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="8" ordinal="3" offset="23" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="5" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>Biblioteca.Dominio.Livros.Livro Biblioteca.Aplicacao.Livros.LivroService::Update(Biblioteca.Dominio.Livros.Livro)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="9" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="10" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="30" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="11" ordinal="2" offset="14" sl="29" sc="17" el="29" ec="60" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="12" ordinal="3" offset="20" sl="30" sc="13" el="30" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="13" ordinal="4" offset="27" sl="31" sc="13" el="31" ec="47" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="14" ordinal="5" offset="42" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="15" ordinal="0" offset="12" sl="28" path="0" offsetend="14" fileid="1" />
+                <BranchPoint vc="2" uspid="16" ordinal="1" offset="12" sl="28" path="1" offsetend="20" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="9" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>Biblioteca.Dominio.Livros.Livro Biblioteca.Aplicacao.Livros.LivroService::Get(System.Int64)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="17" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="18" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="24" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="19" ordinal="2" offset="10" sl="37" sc="17" el="37" ec="60" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="20" ordinal="3" offset="16" sl="38" sc="13" el="38" ec="41" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="21" ordinal="4" offset="31" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="22" ordinal="0" offset="8" sl="36" path="0" offsetend="10" fileid="1" />
+                <BranchPoint vc="1" uspid="23" ordinal="1" offset="8" sl="36" path="1" offsetend="16" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="17" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Biblioteca.Dominio.Livros.Livro&gt; Biblioteca.Aplicacao.Livros.LivroService::GetAll()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="24" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="25" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="26" ordinal="2" offset="15" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="24" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void Biblioteca.Aplicacao.Livros.LivroService::Delete(Biblioteca.Dominio.Livros.Livro)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="27" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="28" ordinal="1" offset="1" sl="48" sc="13" el="48" ec="30" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="29" ordinal="2" offset="14" sl="49" sc="17" el="49" ec="60" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="30" ordinal="3" offset="20" sl="50" sc="13" el="50" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="31" ordinal="4" offset="33" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="32" ordinal="0" offset="12" sl="48" path="0" offsetend="14" fileid="1" />
+                <BranchPoint vc="1" uspid="33" ordinal="1" offset="12" sl="48" path="1" offsetend="20" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="27" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="12" visitedBranchPoints="12" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Biblioteca.Aplicacao.Emprestimos.EmprestimoService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void Biblioteca.Aplicacao.Emprestimos.EmprestimoService::.ctor(Biblioteca.Dominio.Emprestimos.IEmprestimoRepositorio)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="34" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="69" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="10" uspid="35" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="10" uspid="36" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="40" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="10" uspid="37" ordinal="3" offset="15" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="34" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="69" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>Biblioteca.Dominio.Emprestimos.Emprestimo Biblioteca.Aplicacao.Emprestimos.EmprestimoService::Add(Biblioteca.Dominio.Emprestimos.Emprestimo)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="38" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="39" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="40" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="50" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="41" ordinal="3" offset="23" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="38" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>Biblioteca.Dominio.Emprestimos.Emprestimo Biblioteca.Aplicacao.Emprestimos.EmprestimoService::Update(Biblioteca.Dominio.Emprestimos.Emprestimo)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="42" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="43" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="35" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="44" ordinal="2" offset="14" sl="29" sc="17" el="29" ec="60" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="45" ordinal="3" offset="20" sl="30" sc="13" el="30" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="46" ordinal="4" offset="27" sl="31" sc="13" el="31" ec="52" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="47" ordinal="5" offset="42" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="48" ordinal="0" offset="12" sl="28" path="0" offsetend="14" fileid="2" />
+                <BranchPoint vc="2" uspid="49" ordinal="1" offset="12" sl="28" path="1" offsetend="20" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="42" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>Biblioteca.Dominio.Emprestimos.Emprestimo Biblioteca.Aplicacao.Emprestimos.EmprestimoService::Get(System.Int64)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="50" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="51" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="24" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="52" ordinal="2" offset="10" sl="37" sc="17" el="37" ec="60" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="53" ordinal="3" offset="16" sl="38" sc="13" el="38" ec="40" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="54" ordinal="4" offset="32" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="55" ordinal="0" offset="8" sl="36" path="0" offsetend="10" fileid="2" />
+                <BranchPoint vc="1" uspid="56" ordinal="1" offset="8" sl="36" path="1" offsetend="16" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="50" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Biblioteca.Dominio.Emprestimos.Emprestimo&gt; Biblioteca.Aplicacao.Emprestimos.EmprestimoService::GetAll()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="57" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="58" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="42" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="59" ordinal="2" offset="15" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="57" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void Biblioteca.Aplicacao.Emprestimos.EmprestimoService::Delete(Biblioteca.Dominio.Emprestimos.Emprestimo)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="60" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="61" ordinal="1" offset="1" sl="48" sc="13" el="48" ec="35" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="62" ordinal="2" offset="14" sl="49" sc="17" el="49" ec="60" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="63" ordinal="3" offset="20" sl="50" sc="13" el="50" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="64" ordinal="4" offset="33" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="65" ordinal="0" offset="12" sl="48" path="0" offsetend="14" fileid="2" />
+                <BranchPoint vc="1" uspid="66" ordinal="1" offset="12" sl="48" path="1" offsetend="20" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="60" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="37-40-79-D7-EE-E5-12-D5-EB-57-3A-64-C8-E1-FC-1B-52-00-8A-28">
+      <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <ModulePath>C:\Users\Guett\source\repos\Biblioteca.Domain.Tests\Biblioteca.Application.Tests\bin\Debug\Biblioteca.Infraestrutura.dll</ModulePath>
+      <ModuleTime>2018-05-24T00:38:00.5270298Z</ModuleTime>
+      <ModuleName>Biblioteca.Infraestrutura</ModuleName>
+      <Files>
+        <File uid="5" fullPath="c:\users\guett\source\repos\Biblioteca.Domain.Tests\Biblioteca.Infraestrutura\DadosAjuda.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Biblioteca.Infraestrutura.DadosAjuda</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Boolean Biblioteca.Infraestrutura.DadosAjuda::CompareDadosPequenos(System.DateTime)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="67" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="9" uspid="68" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="64" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="9" uspid="69" ordinal="2" offset="13" sl="14" sc="13" el="14" ec="32" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="4" uspid="70" ordinal="3" offset="24" sl="15" sc="13" el="15" ec="14" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="71" ordinal="4" offset="25" sl="16" sc="17" el="16" ec="29" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="5" uspid="72" ordinal="5" offset="29" sl="19" sc="13" el="19" ec="26" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="9" uspid="73" ordinal="6" offset="33" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="74" ordinal="0" offset="22" sl="14" path="0" offsetend="24" fileid="5" />
+                <BranchPoint vc="5" uspid="75" ordinal="1" offset="22" sl="14" path="1" offsetend="29" fileid="5" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="67" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
